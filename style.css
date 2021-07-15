@@ -223,14 +223,15 @@ font-size: 1.5em;
 }
 
 .container {
-    width: 100%;
+    width: 80%;
     background-color: #408f7e;
+    height:60%;
   }
   
   .skills {
     text-align: right;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 06px;
+    padding-bottom: 06px;
     color: white;
   }
   
@@ -239,7 +240,9 @@ font-size: 1.5em;
   .js {width: 65%; background-color: #f44336;}
   .php {width: 60%; background-color: #808080;}
   
-
+a p{
+    text-align:end;
+}
 .about-text{
     font-family: calibri;
     width:50%;  
@@ -270,7 +273,12 @@ section
 .witness{
     align-items: center;
 }
-
+#about img{
+    border-radius: 50%;
+    border-color:#111;
+    box-sizing: 15px;
+    
+}
 #contact
 {
     background-color: #408f7e;
@@ -290,7 +298,7 @@ section
     width: 100%;
     padding: 10px;
 }
-img{
+#portfolio img{
     border-radius: 50%;
     border-color:#111;
     box-sizing: 15px;
@@ -303,7 +311,37 @@ img{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     display: flex;
 }
-
+#achievements{
+    
+    width: 100%;
+    height: 100vh;
+    box-sizing:border-box;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 48px 5% 0px 5%;
+    background-color: #408f7e;
+}
+.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+  }
+  
+  .gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  .gallery img {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .desc {
+    padding: 15px;
+    text-align: center;
+  }
 
 @media (max-width: 991px){
     #banner
