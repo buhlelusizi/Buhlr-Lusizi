@@ -6,6 +6,7 @@ body
     box-sizing: border-box;
     font-family: 'poppins', sans-serif;
     scroll-behavior: smooth;
+   
 
 }
 P
@@ -70,7 +71,7 @@ header
 position: fixed;
 top: 0;
 left: 0;
-width: 100%;
+width: 90%;
 padding: 40px 100px;
 z-index: 10000;
 display: flex;
@@ -243,6 +244,9 @@ font-size: 1.5em;
 a p{
     text-align:end;
 }
+#about{
+    text-align: center;
+}
 .about-text{
     font-family: calibri;
     width:50%;  
@@ -344,263 +348,69 @@ section
   }
 
 @media (max-width: 991px){
-    #banner
-    {
-    position: relative;
-    width: 78%;
-    min-height: 75vh;
-   
-    }
-    #banner h2{
-        font-size:33px;
-    }
-    .banner .content
-    {
-        max-width: 200px;
-        text-align: center;
-    }
-    .banner .content h2
-    {    font-weight: 50;
-        font-size: 0.3em;
-   
-    }
-    .banner  h2:hover{
-     font-size: 3em;
-     color:white;
-    }
-    .banner .content p
-    {
-    font-size: 0.7em;
-    
-    }
-    
-    
-    .btn:hover
-    {
-    letter-spacing: 3px;
-    }
-    #portfolio{
-        background-color: #408f7e;
-        width:75%;
-        height:76%;
-
-    }
-    header
-    {
-    width: 50%;
-    padding: 20px 50px;
-    z-index: 1000;
-    transition: 0.5s;
-    font-weight: 100;
-    }
-    header .sticky
-    {
-
-     padding: 05px 50px;
-     box-shadow: 0 5px 10px white;
-    }
-    header .logo
-    {
-        
-        font-weight: 50;
-        font-size: 0.6em;
-
-     
-    }
-
-    header .navigation li
-    {
-        margin-left: 15px;
-        margin-right: 10px;
-        font-size: 10px;
-    }
-    header .navigation li a
-    {
-        font-weight: 100;
-        
-    }
-  
-    .titleText
-    {
-        color: rgb(245, 244, 244);
-        font-size: 1em;
-        font-weight: 100;
-    
-    }
-    
-    .titleText span
-    {
-    color: white;
-    font-weight: 700;
-    font-size: 1.5em;
-     
-    }
-    
-    
-    
-    .title
-    {
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-    }
-    .team .content 
-    {
-    
-        margin-top: 300px;
-  
-    
-    }
-    
-    .team .content .box
-    {
-        width: 240px;
-        margin: 20px;
-        border: 06px solid #fff;
-        box-shadow: 0 5px 35px rgba(0,0,0,0.08);
-    }
-    .team .content .box .imgBx
-    {
-        position: relative;
-        width: 80%;
-        height: 100px;
-    
-    }
-    .team .content .box .imgBx img
-    {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-    }
-    .team .content .box .imgBx img:hover{
-        width:150%;
-        height:150%;
-    }
-    
-    .team.content .box .text
-    {
-        padding: 15px 0 5px;
-    }
-    .team .content .box .text h3 h4
-    {
-        font-weight: 400;
-        color: white;
-    }
-    #about{
-        width: 120%;
-        height: 100vh;
-        
-    }
-    .photo{
-        size:x small;
-    }
-    #about h1{
-        padding-top: 299%;
-    }
-    #about h4{
-        color: white;
-        font-family: Arial;
-        font-size: small;
-        font-weight: 200;
-    }
-    
-    .container {
-        width: 75%;
-        background-color: #408f7e;
-      }
-      
-      .skills {
-        text-align: right;
-        padding-top: 05px;
-        padding-bottom: 05px;
-        color: white;
-      }
-      
-      .html {width: 90%; background-color: #04AA6D;}
-      .css {width: 80%; background-color: #2196F3;}
-      .js {width: 65%; background-color: #f44336;}
-      .php {width: 60%; background-color: #808080;}
-      
-    
-    .about-text{
-        font-family: calibri;
-        width:50%;  
-    
-    }
-    .about-text h1{
-        font-size: 1rem;
-        color:white;
-    }
-    .about-text h3{
-      color:white;
-    }
-    .about-text h4, p{
-        font-size: 1rem;
-        color:white;
-    }
-    section
-    {
-        padding: 100px;
-    }
-    
-    
-    #Testimonials{
-        padding-top: 200%;
-        width: 75%;
-        padding-bottom: 200%;
-    }
-    .witness{
-        align-items: center;
-    }
-    
-    #contact
-    {
-        background-color: #408f7e;
-        text-align: center;
-        width: 75%;
-    }
-    .frm-container{
-        padding: 50px 50px;
-        cursor: pointer;
-        width: 94%;
-        margin-bottom:10px;
-        height: fit-content;
-        border: 3px solid #f1f1f1;
-     
-    }
-        
-    #userMessage-info{
-        width: 100%;
-        padding: 10px;
-    }
-    img{
-        border-radius: 50%;
-        border-color:#111;
-        box-sizing: 15px;
-        
-    }
-    .banner .content h2
-    {
-        font-size: 4em;
-        color: #39f3e4;
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        display: flex;
-    }
-    #contact .content{
-        width:10%;
-    }
-    
-    footer p{
-        font-size: 09pt;
-    }
-footer{
-    font-size: 10px;
-}
+    .banner
+{
+width: 120%;
+min-height: 144vh;
 }
 
- 
+header
+{
+
+width: 30%;
+padding: 20px 50px;
+transition: 0.5s;
+font-weight: 90;
+}
+header .sticky
+{
+ padding: 05px 50px;
+ box-shadow: 0 5px 10px white;
+}
+header .logo
+{
+    font-weight: 250;
+    font-size: 0.8em;
+}
+
+header .navigation li
+{
+    margin-left: 22px;
+    margin-right: 15px;
+    font-size: 0.8em;
+    
+}
+header .navigation li a
+{
+   
+    font-weight: 200;
+}
+header .navigation
+{
+position: relative;
+display: flex;
+}
+#portfolio{
+    width: 125%;
+    min-height: 50vh;
+} 
+#about{
+    width: 171%;
+    min-height: 150vh;
+}
+.photo{
+ width: 01px; 
+  
+}
+#about p{
+  font-size: 1em;
+}
+#Testimonials{
+    width: 121%;
+    min-height: 150vh;
+}
+#contact{
+    width: 121%;
+    min-height: 170vh;
+}
+}
